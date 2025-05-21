@@ -1,0 +1,22 @@
+{
+    "rewrites": [
+      { "source": "/", "destination": "/index.html" },
+      { "source": "/about", "destination": "/index.html" },
+      { "source": "/contact", "destination": "/index.html" },
+      { "source": "/signup", "destination": "/index.html" },
+      { "source": "/login", "destination": "/index.html" },
+      { "source": "/account", "destination": "/index.html" },
+      { "source": "/cart", "destination": "/index.html" },
+      { "source": "/produts/:path*", "destination": "/index.html" },
+      { "source": "/product/:name", "destination": "/index.html" }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          { "key": "Cache-Control", "value": "max-age=0, no-cache, no-store, must-revalidate" }
+        ]
+      }
+    ]
+  }
+  
