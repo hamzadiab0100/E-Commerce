@@ -1,12 +1,43 @@
-# React + Vite
+# 🛒 E-Commerce Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-featured and responsive e-commerce web application built using **React** (frontend) and a backend powered by **Node.js/Express** and **MongoDB**.
 
-Currently, two official plugins are available:
+## 🔧 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 User Authentication (Signup, Login, Logout, Change Password)
+- 🛍️ Product Browsing (Flash Sales, Best Selling, Explore All)
+- 📦 Cart Management (Add, Remove, View Cart)
+- ✅ JWT Authentication with secure routes
+- 📄 Order & Purchase API Integration
+- 🔎 Single Product View with details
+- 📱 Responsive UI (Mobile + Desktop)
+- 🌐 Protected Routes using React Router
+- ⚙️ Context API for global state (auth + cart)
+- 📊 Dashboard (Admin) *(optional future feature)*
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology     | Description                      |
+|----------------|----------------------------------|
+| React          | Frontend Library                 |
+| React Router   | Routing System                   |
+| Context API    | State Management (auth, cart)    |
+| TailwindCSS / CSS | Styling                       |
+| Node.js + Express | Backend Server (API)          |
+| MongoDB        | NoSQL Database                   |
+| JWT            | User Authentication              |
+| Railway        | Backend Hosting                  |
+| Vite           | Frontend Dev Server & Build Tool |
+
+## 📦 Installation & Run
+
+```bash
+# Frontend
+cd client
+npm install
+npm run dev
+
+# Backend
+cd server
+npm install
+npm run start
